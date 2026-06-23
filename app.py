@@ -8,7 +8,7 @@ from plotly.subplots import make_subplots
 
 # Configuração da página
 st.set_page_config(
-    page_title="Sistema de Análise de Crédito",
+    page_title="Sistema de Análise de Crédito - By Lena Haouas",
     page_icon="💳",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -122,7 +122,7 @@ st.markdown('<h1 class="main-header">💳 Sistema de Análise de Crédito</h1>',
 st.markdown("### 🤖 Análise Inteligente com Machine Learning")
 
 # Informações sobre o deploy
-st.info("✨ **Deploy realizado por: Seu Nome** | 🚀 Powered by Streamlit Cloud")
+st.info("✨ **Deploy realizado por: Lena Haouas** | 🚀 Powered by Streamlit Cloud")
 
 # Carregamento do modelo
 modelo = carregar_modelo()
